@@ -12,7 +12,8 @@ public class TicTacToe extends HttpServlet {
 
 	public TicTacToe() {
         initializeGame();
-    }
+    
+	}
 
     private void initializeGame() {
         currentPlayer = "x";
